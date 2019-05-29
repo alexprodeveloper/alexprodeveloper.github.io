@@ -1,0 +1,45 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background: linear-gradient(to right, #1cb711, #1fff1a);
+}
+
+.col-md-2 .logo__title {
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #080b2b;
+}
+
+.col-md-10 .logo__title:hover {
+  color: rgba(15, 19, 90, 0.64);
+}
+
+.col-md-10 .header__item-src {
+  text-decoration: none;
+  color: rgb(8, 6, 30);
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.col-md-10 .header__item-src:hover {
+  border-radius: 30%;
+  background: rgba(50, 93, 45, 0.61);
+  transform: scale(1.1);
+  color: #aaa8ff;
+}
+
+.header__phone {
+  font-size: 20px;
+  text-align: right;
+}
+
+.header__phone span {
+  display: block;
+}

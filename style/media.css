@@ -1,0 +1,18 @@
+@media (max-width: 1199px) {
+  .header__phone {
+    display: block;
+    text-align: center;
+  }
+
+  .header__phone span {
+    display: inline;
+  }
+
+  .header__phone span:last-child {
+    margin-left: 10px;
+  }
+
+  .header__btn {
+    text-align: center;
+  }
+}
