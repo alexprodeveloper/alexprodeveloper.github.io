@@ -4,6 +4,10 @@ html body {
   background: rgba(51, 14, 25, 0.22);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container-fluid:first-child {
   background: linear-gradient(to right, #1fff1a, #0e9407);
 }
@@ -69,8 +73,12 @@ html body {
 
 }
 
-.spacer_0 {
-  padding: 0 0;
+.spacer_0:first-child {
+  padding-right: 0;
+}
+
+.spacer_0:last-child {
+  padding-left: 0;
 }
 
 .gradient p:first-child {
