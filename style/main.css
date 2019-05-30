@@ -1,7 +1,7 @@
 html body {
   margin: 0;
   padding: 0;
-  background: rgba(51, 14, 25, 0.22);
+  background: #FF9E73	;
   overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ html {
   text-shadow: 1px 1px 10px #10113b;
 }
 
-.col-md-10 .logo__title:hover {
+.col-md-2 .logo__title:hover {
   color: rgba(15, 19, 90, 0.64);
 }
 
@@ -76,16 +76,9 @@ html {
 }
 
 .spacer_0:last-child {
-  padding-left: 0;
-}
-
-.spacer_0 p:first-child {
-  text-align: center;
-}
-
-.spacer_0 p:last-child {
   text-indent: 20px;
   padding-left: 7px;
+  color: #15085f;
 }
 
 .gradient {
@@ -95,7 +88,8 @@ html {
 .gradient p:first-child {
   font-size: 40px;
   text-align: center;
-  color: #a4731d;
+  color: #FFA840;
+
 }
 
 .gradient p:last-child {
@@ -103,6 +97,14 @@ html {
   font-size: 20px;
 }
 
-.goods {
+.center {
   text-align: center;
+}
+
+.quality {
+  font-family: 'Caveat', cursive;;
+}
+
+.quality p {
+  font-size: 18px;
 }
