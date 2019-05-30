@@ -170,11 +170,41 @@
     margin-top: 50px;
   }
 
+  .slider {
+    margin: 0 3%;
+  }
+
   .good {
     margin: 0 3%;
   }
 
+  .quality  {
+    padding: 0 -6%;
+  }
+
   .gradient p:last-child {
     padding-left: 20px;
+  }
+
+  .spacer_0 p:first-child {
+    padding: 0 20px;
+    font-size: 26px;
+  }
+
+  .spacer_0 p:last-child {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 575px) {
+  .quality h3 {
+    text-align: center;
+  }
+
+  .quality p {
+    padding: 20px;
+    text-indent: 20px;
+    font-size: 24px;
   }
 }
