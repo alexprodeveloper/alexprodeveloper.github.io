@@ -166,6 +166,14 @@
 }
 
 @media (max-width: 768px) {
+  .spacer_0 img {
+    margin-top: 50px;
+  }
+
+  .good {
+    margin: 0 3%;
+  }
+
   .gradient p:last-child {
     padding-left: 20px;
   }
