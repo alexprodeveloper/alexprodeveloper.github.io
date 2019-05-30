@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__btn .header__item-src {
     display: block;
     font-size: 25px;
@@ -159,7 +159,14 @@
   }
 }
 
+@media (max-width: 600px) {
+  .spacer_0 {
+    padding: 0 0;
+  }
+}
+
 @media (max-width: 768px) {
-  .gradient {
-    padding: 0 10px;}
+  .gradient p:last-child {
+    padding-left: 20px;
+  }
 }

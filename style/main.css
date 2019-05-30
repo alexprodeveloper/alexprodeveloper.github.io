@@ -2,6 +2,7 @@ html body {
   margin: 0;
   padding: 0;
   background: rgba(51, 14, 25, 0.22);
+  overflow-x: hidden;
 }
 
 html {
@@ -10,6 +11,8 @@ html {
 
 .container-fluid:first-child {
   background: linear-gradient(to right, #1fff1a, #0e9407);
+  width: 100%;
+
 }
 
 .col-md-2 .logo__title {
@@ -68,11 +71,6 @@ html {
   padding: 0 10%;
 }
 
-.gradient {
-  background: linear-gradient(to top, #4a7344, rgba(17, 56, 15, 0.88));
-
-}
-
 .spacer_0:first-child {
   padding-right: 0;
 }
@@ -81,8 +79,20 @@ html {
   padding-left: 0;
 }
 
+.spacer_0 p:first-child {
+  text-align: center;
+}
+
+.spacer_0 p:last-child {
+  text-indent: 20px;
+  padding-left: 7px;
+}
+
+.gradient {
+  background: linear-gradient(to top, #4a7344, rgba(17, 56, 15, 0.88));
+}
+
 .gradient p:first-child {
-  padding: 0 10px;
   font-size: 40px;
   text-align: center;
   color: #a4731d;
@@ -90,6 +100,6 @@ html {
 
 .gradient p:last-child {
   margin-top: 20px;
-  padding: 0 10px;
   font-size: 20px;
 }
+
