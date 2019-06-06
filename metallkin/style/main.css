@@ -1,0 +1,148 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background: #FF9E73;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container-fluid:first-child {
+    background: linear-gradient(to right, #1fff1a, #0e9407);
+    width: 100%;
+}
+
+.col-md-2 .logo__title {
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #080b2b;
+    text-shadow: 1px 1px 10px #10113b;
+}
+
+.col-md-2 .logo__title:hover {
+    color: rgba(15, 19, 90, 0.64);
+}
+
+.header__btn {
+    text-align: center;
+}
+
+.col-md-10 .header__item-src {
+    text-decoration: none;
+    color: rgb(8, 6, 30);
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.col-md-10 .header__item-src:hover {
+    border-radius: 60px;
+    background: rgba(50, 93, 45, 0.61);
+    transform: scale(1.1);
+    color: #aaa8ff;
+}
+
+.header__phone {
+    font-size: 20px;
+    text-align: right;
+}
+
+.header__phone span {
+    display: block;
+}
+
+.search form input {
+    margin: 0 3%;
+    width: 94%;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    outline: 0;
+}
+
+.spacer {
+    padding: 0 10%;
+}
+
+.spacer_0:first-child {
+    padding-right: 0;
+}
+
+.spacer_0:last-child {
+    text-indent: 20px;
+    padding-left: 7px;
+    color: rgb(230, 229, 221);
+}
+
+.gradient {
+    background: linear-gradient(to top, #4a7344, rgba(17, 56, 15, 0.88));
+}
+
+.gradient p:first-child {
+    font-size: 40px;
+    text-align: center;
+    color: #FFA840;
+}
+
+.gradient p:last-child {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.quality {
+    font-family: 'Caveat', cursive;
+}
+
+.quality p {
+    font-size: 24px;
+}
+
+.no__pad {
+    padding: 0;
+    border-left: 1px solid rgba(17, 16, 33, 0.87);
+    border-top: 1px solid rgba(17, 16, 33, 0.87);
+}
+
+.no__pad:nth-child(1), .no__pad:nth-of-type(6) {
+    border-left: none;
+}
+
+.no__pad:nth-of-type(1), .no__pad:nth-of-type(2), .no__pad:nth-of-type(3), .no__pad:nth-of-type(4) {
+    border-top: none;
+    margin-bottom: -1px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.bg {
+    background: linear-gradient(to right, #1fff1a, #0e9407);
+    width: 100%;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.email span {
+    display: block;
+}
+
+.footer__phone {
+    font-size: 20px;
+}
+
+.footer__phone span {
+    display: block;
+}
