@@ -254,7 +254,8 @@ a:hover:after {
     z-index: 4;
     left: 30px;
     height: 255px;
-    width:540px;
+    padding: 0;
+    max-width: 580px;
 }
 
 .good__card2::before {
@@ -262,7 +263,7 @@ a:hover:after {
     display: inline-block;
     position: relative;
     top: -20px;
-    left: -30px;
+    left: -20px;
     width: 200px;
     height: 275px;
     background: url(../img/boot2.png);
@@ -343,7 +344,7 @@ a:hover:after {
     height: 255px;
     text-align: center;
     position: relative;
-    left: 860px;
+    left: 780px;
     bottom: 255px;
 }
 
@@ -357,6 +358,3 @@ a:hover:after {
     bottom: 255px;
 }
 
-.hidden {
-    overflow-x: hidden;
-}
