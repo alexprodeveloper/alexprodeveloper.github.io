@@ -39,7 +39,7 @@ html {
     margin-right: 10px;
     vertical-align: top;
     background-size: cover;
-    background-image: url('../img/79.png');
+    background-image: url(../img/79.png);
 }
 
 .header__nav span:nth-child(2) {
@@ -117,10 +117,9 @@ a:hover:after {
     margin-top: -70px;
     width: 800px;
     height: 620px;
-    background: url('../img/boot.png');
+    background: url(../img/boot.png);
     background-size: cover;
 }
-
 
 .container-fluid:nth-child(3) {
     background: #f0efee;
@@ -213,7 +212,6 @@ a:hover:after {
     background: url(../img/logo.png);
 }
 
-
 .good__card span:first-child {
     font-size: 30px;
     color: #fff;
@@ -255,7 +253,7 @@ a:hover:after {
     left: 30px;
     height: 255px;
     padding: 0;
-    max-width: 580px;
+    max-width: 595px;
 }
 
 .good__card2::before {
@@ -280,9 +278,8 @@ a:hover:after {
     margin-top: 50px;
 }
 
-
 .more {
-    padding: 10px 20px ;
+    padding: 10px 20px;
     background: #623232;
     width: 150px;
     text-align: center;
@@ -344,7 +341,7 @@ a:hover:after {
     height: 255px;
     text-align: center;
     position: relative;
-    left: 780px;
+    left: 800px;
     bottom: 255px;
 }
 
@@ -358,3 +355,418 @@ a:hover:after {
     bottom: 255px;
 }
 
+.cat__container {
+    text-align: center;
+    margin-top: -180px;
+}
+
+.cat a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #d0cdca;
+    margin-right: 35px;
+}
+
+.cat:last-child {
+    margin-right: 0;
+}
+
+.cat a:hover {
+    color: #623232;
+}
+
+.container-fluid:nth-child(5) {
+    padding: 0 284px;
+}
+
+.items__row {
+    margin-top: -60px;
+}
+
+.item__main {
+    border: 1px solid #e0dfde;
+    padding: 30px;
+    padding-bottom: 10px;
+    float: left;
+    height: 360px;
+}
+
+.item__image:nth-child(2) {
+    margin-top: 60px;
+}
+
+.item__price span:first-child {
+    font-size: 24px;
+    color: #ff7373;
+}
+
+.item__price span:last-child {
+    font-size: 16px;
+    color: #8a8784;
+    text-decoration: line-through;
+}
+
+.item__discount {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    background-color: #ff7373;
+    padding: 5px 10px;
+    left: 30px;
+    color: #fff;
+}
+
+.item__description {
+    margin-top: 50px;
+}
+
+.item__description span:first-child {
+    font-size: 16px;
+    color: #8a8784;
+}
+
+.item__description span:last-child {
+    font-size: 13px;
+    color: #bdb9b5;
+}
+
+.fixer {
+    z-index: -1;
+    position: relative;
+    bottom: 60px;
+}
+
+.fix {
+    margin-top: -60px;
+}
+
+.items__row:nth-child(2) .item__col:nth-child(4) .item__image {
+    position: relative;
+    z-index: -1;
+    bottom: 60px;
+}
+
+.items__row:nth-child(2) .item__col:nth-child(4) .item__description {
+    margin-top: -70px;
+}
+
+.items__row:last-child {
+    margin-top: 70px;
+}
+
+.items__row:last-child .item__col .item__image {
+    position: relative;
+    z-index: -1;
+    bottom: 60px;
+}
+
+.items__row:last-child .item__col .item__description {
+    margin-top: -80px;
+}
+
+.partners {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.partners .col:first-child {
+    margin-left: 50px;
+}
+
+.container-fluid:nth-child(6) {
+    padding: 0 284px;
+}
+
+.container-fluid:nth-child(7) {
+    position: relative;
+    padding: 0;
+}
+
+.container-fluid:nth-child(7)::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: url(../img/bg_layer.png);
+    width: 100%;
+    height: 570px;
+    left: 0;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.container-fluid:nth-child(7)::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    background: #472424;
+    width: 100%;
+    max-height: 300px;
+    padding: 0;
+}
+
+.comment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.author__icon {
+    border-radius: 50%;
+}
+
+.comment .comment__body:not(:nth-child(2)) .author__icon {
+    opacity: 0.5;
+}
+
+.comment .comment__body img {
+    margin: 0 95px;
+}
+
+.rectangle {
+    height: 190px;
+    background: #593a3a;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.rectangle::before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: #593a3a;
+    position: absolute;
+    bottom: 150px;
+    z-index: -0;
+    transform: rotate(45deg);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: #623232;
+}
+
+.container-fluid:nth-child(8) {
+    padding: 0 284px;
+}
+
+.new {
+    width: 400px;
+    height: 400px;
+    background: #472424;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col-4:first-child .new::before {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+    background: url(../img/new1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    left: 0;
+    top: 0;
+}
+
+.col-4:nth-child(2) .new::before {
+    content: '';
+    width: inherit;
+    position: absolute;
+    height: inherit;
+    display: inline-block;
+    background: url(../img/new2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    left: 0;
+    top: 0;
+}
+
+.col-4:nth-child(3) .new::before {
+    content: '';
+    width: inherit;
+    position: absolute;
+    height: inherit;
+    display: inline-block;
+    background: url(../img/new3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+
+.new {
+    padding: 30px;
+}
+
+.comment__text {
+    position: absolute;
+    bottom: 30px;
+}
+
+.comment__text span:first-child {
+    font-size: 16px;
+    color: #fff;
+}
+
+.comment__text span:last-child {
+    font-size: 13px;
+    color: #ff7373;
+}
+
+.comment__text span:last-child::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/message.png);
+}
+
+.space {
+    margin-top: 60px;
+}
+
+.container-fluid:nth-child(9) {
+    background: #ff7373;
+    margin-top: 100px;
+}
+
+.spacer {
+    padding: 70px 284px;
+    position: relative;
+}
+
+.spacer .col-5 span:first-child {
+    font-size: 30px;
+    color: #fff;
+}
+
+.spacer .col-5 span:last-child {
+    font-size: 16px;
+    color: #fff;
+}
+
+.spacer .col-2 span a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.spacer .col-2 span {
+    padding: 10px 18px;
+    background: #623232;
+}
+
+.spacer .col-5 div span {
+    padding-left: 80px;
+}
+
+.spacer .col-5 div:before {
+    content: '';
+    width: 60px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    background: url(../img/mail.png);
+}
+
+.container-fluid:nth-child(10) {
+    padding: 0 284px;
+    background: #623232;
+}
+
+.advantage {
+    text-align: center;
+}
+
+.advantages {
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+.advantage span {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.advantage:first-child .img::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -70px;
+    background: url(../img/advantage1.png);
+}
+
+.advantage:nth-child(2) .img::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -70px;
+    background: url(../img/advantage2.png);
+}
+
+.advantage:nth-child(3) .img::before {
+    content: '';
+
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -70px;
+    background: url('../img/advantage3.png');
+}
+
+.advantage:nth-child(4) .img::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -70px;
+    background: url(../img/advantage4.png);
+}
+
+.advantage:nth-child(5) .img::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -70px;
+    background: url(../img/advantage5.png);
+}
+
+.advantage:nth-child(6) .img::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    left: 95px;
+    top: -58px;
+    background: url(../img/advantage6.png);
+    background-repeat: no-repeat;
+
+}
