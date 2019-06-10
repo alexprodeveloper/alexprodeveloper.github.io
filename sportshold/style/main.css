@@ -4,13 +4,15 @@ html {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    font-family: 'Myriad Pro', serif;
+}
+
 .container-fluid:first-child, .container-fluid:nth-child(2) {
     padding: 0 284px;
     background: #472424;
     color: #fff;
-    font-family: 'Myriad Pro', serif;
     font-size: 15px;
-    letter-spacing: 1.5px;
     overflow-y: hidden;
 }
 
@@ -711,7 +713,7 @@ a:hover:after {
     position: absolute;
     display: block;
     left: 95px;
-    top: -70px;
+    top: -60px;
     background: url(../img/advantage1.png);
 }
 
@@ -722,19 +724,18 @@ a:hover:after {
     position: absolute;
     display: block;
     left: 95px;
-    top: -70px;
+    top: -60px;
     background: url(../img/advantage2.png);
 }
 
 .advantage:nth-child(3) .img::before {
     content: '';
-
     width: 40px;
     height: 40px;
     position: absolute;
     display: block;
     left: 95px;
-    top: -70px;
+    top: -60px;
     background: url('../img/advantage3.png');
 }
 
@@ -745,7 +746,7 @@ a:hover:after {
     position: absolute;
     display: block;
     left: 95px;
-    top: -70px;
+    top: -60px;
     background: url(../img/advantage4.png);
 }
 
@@ -756,7 +757,7 @@ a:hover:after {
     position: absolute;
     display: block;
     left: 95px;
-    top: -70px;
+    top: -60px;
     background: url(../img/advantage5.png);
 }
 
@@ -767,7 +768,7 @@ a:hover:after {
     position: absolute;
     display: block;
     left: 95px;
-    top: -58px;
+    top: -48px;
     background: url(../img/advantage6.png);
     background-repeat: no-repeat;
 }
