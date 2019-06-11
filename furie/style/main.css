@@ -5,6 +5,10 @@ body {
     background: #f5f5f5;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .flex_row:first-child {
     display: flex;
     padding: 60px 80px 0 100px;
@@ -114,6 +118,7 @@ body {
 .flex_brands{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 1px solid #ebebeb;
     margin-bottom: 176px;
@@ -127,12 +132,17 @@ body {
     color: #c1c1c1;
 }
 
+.car_description div {
+    text-align: center;
+}
+
 .car_description::before {
     content: '';
     min-width: 524px;
     height: 286px;
     margin: 0 10%;
     position: relative;
+    top: 50px;
     z-index: 2;
     display: inline-block;
     background: url(../img/bmw.png);
@@ -463,4 +473,8 @@ body {
     position: relative;
     bottom: 10px;
     border-radius: 28px;
+}
+
+.w-100 {
+    display: none;
 }

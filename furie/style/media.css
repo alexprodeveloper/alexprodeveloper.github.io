@@ -1,0 +1,213 @@
+@media (max-width: 1625px) {
+    .search_btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .no_margin {
+        margin-right: 0;
+    }
+
+    .wrapper {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1740px) {
+    .form_footer_container {
+        display: block;
+    }
+
+    .form_footer_container input {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        width: 70%;
+    }
+
+    .form_footer_container input:last-child {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .search {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+
+    .car_description div {
+        margin-left: 0;
+    }
+
+    .wrapper {
+        padding-bottom: 80px;
+    }
+
+    .footer_container {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .advanced_search {
+        margin-bottom: 10%;
+    }
+
+    .car_description {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .car_description::before {
+        content: '';
+        min-width: 524px;
+        height: 400px;
+        margin: 0 10%;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        background: url(../img/bmw.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 870px) {
+    .bg {
+        width: 100%;
+        background-size: 90% auto;
+        background-position: center;
+        overflow-x: hidden;
+        margin: 80px 0;
+    }
+
+    .flex_row:first-child {
+        padding: 50px 20px 0;
+    }
+
+    .flex_row:first-child .about_us {
+        font-size: 13px;
+
+    }
+
+    .about_us span:not(:first-child) {
+        margin-left: 90px;
+    }
+
+    .about_us span:last-child {
+        padding: 10px 25px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 570px) {
+    .flex_row:first-child {
+        justify-content: flex-end;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .flex_row:first-child {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about_us span {
+        font-size: 16px;
+    }
+
+    .bg {
+        margin: 0;
+    }
+
+    .about_us span:last-child {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .about_us span:not(:last-child) {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    .about_us span:nth-child(2) {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 720px) {
+    .w-100 {
+        width: 100%;
+        display: block;
+    }
+
+    .announcement p {
+        font-size: 40px;
+    }
+
+    .announcement::after {
+        display: inline-block;
+        min-width: 90%;
+        min-height: 236px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-top: 60px;
+
+    }
+
+    .lorem {
+        font-size: 20px;
+    }
+
+    .car_description::before {
+        width: 100%;
+        max-height: 300px;
+        background-size: 80% auto;
+        margin: 0 auto;
+    }
+
+    .flex_brands img:nth-last-child(1), .flex_brands img:nth-last-child(2), .flex_brands img:nth-last-child(3) {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .car_description::before {
+        width: 60%;
+        max-height: 200px;
+        background-size: 60% auto;
+        background-position: bottom;
+        margin-left: -100px;
+    }
+
+    .announcement p {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .announcement button {
+        padding: 10px 40px;
+    }
+
+    .announcement {
+        height: 430px;
+    }
+}
