@@ -219,17 +219,21 @@ html {
 }
 
 .suggestions {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 200px;
-    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 600px;
+    margin-bottom: 150px;
 }
 
 .suggestion:first-child {
-    width: 450px;
-    position: relative;
     border: 1px solid silver;
-    padding-bottom: 40px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+
 }
 
 .suggestion:first-child .wrap span:first-child {
@@ -247,13 +251,14 @@ html {
 .suggestion:first-child::before {
     content: '';
     display: block;
-    width: 280px;
+    width: 300px;
     height: 162px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
     background: url(../img/suggestion1.png);
+    background-repeat: no-repeat;
 }
 
 .suggestion:first-child p {
@@ -301,13 +306,15 @@ html {
 
 .suggestion:last-child {
     display: flex;
+    min-width: 60%;
     border: 1px solid silver;
-
+    grid-row-start: 1;
+    grid-column-start: 2;
 }
 
 .container_left {
     float: left;
-    max-width: 500px;
+    width: 60%;
     margin-right: 65px;
     padding-top: 70px;
     padding-left: 60px;

@@ -211,22 +211,3 @@
         height: 430px;
     }
 }
-
-@media (max-width: 1520px) {
-    .suggestions {
-        display: block;
-    }
-
-    .container_left {
-        max-width: 50%;
-    }
-
-    .container_right {
-        max-width: 50%;
-    }
-
-    .suggestion:first-child {
-        margin: 0 auto;
-        margin-bottom: 100px;
-    }
-}
