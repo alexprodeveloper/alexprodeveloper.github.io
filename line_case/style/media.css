@@ -1,0 +1,165 @@
+@media (max-width: 1430px) {
+    .logo_container::before {
+        margin-left: 12%;
+    }
+
+    .logo_container.margin::before {
+        margin: 0;
+    }
+
+    .header_img::before {
+        margin-left: 12%;
+    }
+
+    .text {
+        margin-left: 12%;
+    }
+
+    header::before {
+        left: 55%;
+    }
+
+    .content {
+        padding-left: 12%;
+    }
+
+    .description {
+        padding: 0 12%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 235px;
+    }
+
+    .social_btn {
+        margin-left: 0;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    header::before {
+        display: none;
+    }
+
+    .liner {
+        width: 100%;
+    }
+
+    .logo_container::before {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .header_img::before {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .text {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .content {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .description {
+        padding: 0 3%;
+    }
+
+    .service_container {
+        padding-right: 3%;
+    }
+
+    .content p {
+        margin-right: 3%;
+    }
+
+    .text_container:first-child {
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .text_container h3 {
+        text-align: center;
+    }
+
+    .text_container {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    footer {
+        padding-bottom: 150px;
+    }
+}
+
+@media (max-width: 610px) {
+    .mail {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-left: 0;
+    }
+
+    .mail span {
+        margin-left: 20px;
+    }
+
+    .footer_container p {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 502px) {
+    .hide {
+        display: none;
+    }
+
+    .header_img::before {
+        background-size: 80% auto;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 417px) {
+    .service_container {
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .header_img::before {
+        background-size: 70%;
+    }
+}
+
+@media (max-width: 390px) {
+    .mail::after {
+        display: none;
+    }
+
+    .mail span {
+        margin-left: 0;
+    }
+
+    .mail {
+        display: flex;
+        justify-content: center;
+    }
+}

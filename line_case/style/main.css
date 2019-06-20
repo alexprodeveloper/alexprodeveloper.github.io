@@ -7,7 +7,6 @@
 
 header {
     background: #00aeef;
-    padding-left: 340px;
     padding-top: 49px;
     position: relative;
     overflow: visible;
@@ -18,9 +17,11 @@ header {
     height: 4px;
     background-color: #ffffff;
     position: relative;
+    z-index: 4;
     float: left;
     top: 20px;
     content: '';
+    margin-left: 340px;
 }
 
 .logo_container::after {
@@ -30,6 +31,7 @@ header {
     content: '';
     display: inline-block;
     background: url(../img/header_logo.png);
+    z-index: 4;
 }
 
 .header_img::before {
@@ -38,8 +40,11 @@ header {
     height: 88px;
     display: block;
     margin-top: 137px;
+    position: relative;
+    z-index: 4;
     background: url(../img/header_logo2.png);
     margin-bottom: 30px;
+    margin-left: 340px;
 }
 
 .text {
@@ -48,6 +53,9 @@ header {
     font-style: italic;
     line-height: 30px;
     margin-bottom: 276px;
+    margin-left: 340px;
+    position: relative;
+    z-index: 4;
 }
 
 header::before {
@@ -57,7 +65,7 @@ header::before {
     display: block;
     position: absolute;
     bottom: -37px;
-    right: 407px;
+    left: 806px;
     background: url(../img/man_bg.png);
     z-index: 2;
 }
