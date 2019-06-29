@@ -262,6 +262,10 @@
     .footer--row::after {
         font-size: 100px;
     }
+
+    .row--journey {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 555px) {
@@ -294,12 +298,9 @@
         display: none;
     }
 
-    .heading-big {
-        font-size: 50px;
-    }
-
     .card {
         width: 100%;
+        margin-top: 60px;
     }
 
     .header--phone {
@@ -320,8 +321,12 @@
     }
 
     .card--text {
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: 30px;
+        margin-bottom: 60px !important;
+    }
+
+    .card--text-small {
+        margin-bottom: 125px !important;
     }
 
     .card--text:last-child {
@@ -349,13 +354,46 @@
         padding-left: 1.5%;
     }
 
+    .hide {
+        display: none;
+    }
+
+    .heading:not(.heading-small):not(.container--heading) {
+        font-size: 30px !important;
+    }
+
     .heading-black {
-        font-size: 49px;
         text-align: center;
     }
 
-    .hide {
-        display: none;
+    .header--row::after {
+        left: 0;
+    }
+
+    .row--heading-big {
+        font-size: 35px;
+    }
+
+    .row--journey {
+        height: 550px;
+        margin-top: 0;
+    }
+
+    .row--journey::before {
+        height: 550px;
+    }
+
+    .row--button-light {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .button, .btn {
+        padding: 16px 28px;
+    }
+
+    .footer--row {
+        height: 220px;
     }
 }
 
