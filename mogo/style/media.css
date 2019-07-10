@@ -1471,4 +1471,25 @@
     .article--text {
         font-size: 14px;
     }
+
+    .picture {
+        height: 170px;
+    }
+
+    .picture-big {
+        height: 340px;
+        background-position: 49%;
+    }
+
+    .pictures {
+        height: 680px;
+    }
+
+    .picture:nth-child(3) {
+        background-position: center bottom;
+    }
+
+    .picture:nth-child(2) {
+        background-position: center;
+    }
 }
