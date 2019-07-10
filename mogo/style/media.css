@@ -1,0 +1,1474 @@
+@media (max-width: 1860px) and (min-width: 1751px){
+    .intro::before {
+        width: 200px;
+    }
+
+    .work::before {
+        width: 200px;
+    }
+
+    .about_us::before {
+        width: 200px;
+    }
+
+    .contacts::before {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1750px) {
+    .header--row {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .attraction {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .main--row {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--advantages {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--work {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--service {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--service2 {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .heading--text-pad {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--card {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--comment {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .row--workers {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--comments {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .article--wrap {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--footer {
+        margin-right: 260px;
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 1560px) {
+    .description--text {
+        padding-right: 20px;
+    }
+
+    .post--heading {
+        padding-right: 20px;
+    }
+
+    .post--date {
+        padding-right: 20px;
+    }
+
+    .header--row {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .attraction {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .main--row {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--advantages {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--work {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--service {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--service2 {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .heading--text-pad {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--card {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--comment {
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .row--workers {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--comments {
+        padding-left: 200px;
+       padding-right: 200px;
+    }
+
+    .article--wrap {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .row--footer {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1490px) {
+    .comment--text {
+        font-size: 20px;
+    }
+
+    .comment--author {
+        margin-top: 18px;
+    }
+
+    .header::before {
+        background-position: 50%;
+    }
+
+    .intro::before {
+        width: 250px;
+    }
+
+    .work::before {
+        width: 250px;
+    }
+
+    .about_us::before {
+        width: 250px;
+    }
+
+    .contacts::before {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .pictures {
+        height: 700px;
+    }
+
+    .worker {
+        height: 400px;
+    }
+
+    .worker--card {
+        height: 400px;
+    }
+
+    .picture {
+        height: 350px;
+    }
+
+    .picture-big {
+        height: 700px;
+    }
+
+    .header--row {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .attraction {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .main--row {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--advantages {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--work {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--service {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--service2 {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .heading--text-pad {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--card {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--comment {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .row--workers {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--comments {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .article--wrap {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .row--footer {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .pictures {
+        height: 600px;
+    }
+
+    .picture {
+        height: 300px;
+    }
+    .picture-big {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .intro::before {
+        width: 200px;
+    }
+
+    .work::before {
+        width: 200px;
+    }
+
+    .about_us::before {
+        width: 200px;
+    }
+
+    .contacts::before {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header--row {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .attraction {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .main--row {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--advantages {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--work {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--service {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--service2 {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .heading--text-pad {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--card {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--comment {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .row--workers {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--comments {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .article--wrap {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .row--footer {
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+    .row--brands::before {
+        background-size: 96%;
+        background-position: 50%;
+
+    }
+
+    .row--brands {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .article--img {
+        height: 190px !important;
+    }
+
+    .article--date {
+        top: 107px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .header--row {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .attraction {
+        padding-left: 30px;
+        padding-right: 90px;
+        margin-top: 120px;
+    }
+
+    .main--row {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--advantages {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row--work {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--service {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--service2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .heading--text-pad {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--card {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--comment {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .row--workers {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row--comments {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .article--wrap {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row--footer {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .about {
+        font-size: 60px;
+    }
+
+    .slogan {
+        font-size: 125px;
+    }
+
+    .description {
+        margin-top: 140px;
+    }
+
+    .comment--text {
+        font-size: 17px;
+    }
+
+    .advantage:first-child {
+        border-left: none;
+    }
+
+    .advantage:last-child {
+        border-right: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .picture {
+        width: 50%;
+        height: 390px;
+    }
+
+    .picture-big {
+        height: 780px;
+    }
+
+    .pictures {
+        height: 1560px;
+    }
+
+    .picture:nth-child(6) {
+        order: -1;
+    }
+
+    .picture:nth-child(1) {
+        order: -2;
+    }
+
+    .description--text {
+        font-size: 12px;
+    }
+
+    .input--confirm {
+        padding: 15px 15px;
+    }
+
+    .post--heading {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .button {
+        margin-left: 12px;
+    }
+
+    .attraction {
+        flex-wrap: wrap;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .about_us, .contacts {
+        margin-top: 100px;
+    }
+
+    .work, .contacts {
+        text-align: right;
+    }
+
+    .intro, .work, .about_us, .contacts {
+        width: 45%;
+    }
+
+    .contacts::before, .work::before, .intro::before, .about_us::before {
+        width: 100%;
+    }
+
+    .picture--item {
+        height: 180px;
+    }
+
+    .header--href:not(:first-child) {
+        margin-right: 40px ;
+    }
+
+    .header--href-hide::after {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 830px) {
+    .row--design::after {
+        left: 10%;
+    }
+
+    .instagram--wrap {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .row--design-wrap::after {
+        left: 60%;
+    }
+
+    .worker--wrap {
+        flex-direction: column;
+    }
+
+    .social, .insta {
+        border-left: none;
+        border-top: 1px solid #f9bd87;
+    }
+
+    .worker {
+        height: 350px;
+    }
+
+    .worker--card {
+        height: 350px;
+    }
+
+    .about {
+        font-size: 50px;
+    }
+
+    .slogan {
+        font-size: 100px;
+    }
+
+    .description {
+        margin-top: 110px;
+    }
+
+    .slogan::after {
+        bottom: -50px;
+    }
+
+    .attraction {
+        margin-top: 100px;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .row--picture {
+        margin-top: 50px;
+    }
+
+    .row--advantages {
+        margin-top: 50px;
+    }
+
+    .row--work {
+        margin-top: 50px;
+    }
+
+    .service2--wrap::before {
+        top: -50px;
+    }
+
+    .service2--wrap {
+        margin-top: 100px;
+    }
+
+    .row--design {
+        margin-top: 70px;
+    }
+
+    .row--do {
+        margin-top: 90px;
+    }
+
+    .row--card {
+        margin-top: 50px;
+    }
+
+    .comment--text {
+        font-size: 14px;
+    }
+
+    .comment--author {
+        font-size: 20px;
+    }
+
+    .row--comment {
+        margin-top: 70px;
+    }
+
+    .row--team {
+        margin-top: 50px;
+    }
+
+    .row--workers {
+        margin-top: 50px;
+    }
+
+    .row--brands {
+        padding: 0;
+    }
+
+    .row--portfolio {
+        margin-top: 60px;
+    }
+
+    .pictures {
+        margin-top: 50px;
+    }
+
+    .row--clients {
+        margin-top: 70px;
+    }
+
+    .row--comments {
+        padding-bottom: 60px;
+    }
+
+    .row--blog {
+        margin-top: 50px;
+    }
+
+    .row--map {
+        margin-top: 50px;
+    }
+
+    .row--footer {
+        margin-top: 50px;
+    }
+
+    .row--card {
+        align-items: center;
+    }
+
+    .img-fluid {
+        height: 230px;
+    }
+
+    .row--footer {
+        flex-wrap: wrap;
+    }
+
+    .footer--instagram {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .row--last {
+        margin-top: 50px;
+    }
+
+    .row--footer::after {
+        bottom: -40px;
+    }
+
+    .footer--description {
+        width: 48%;
+    }
+
+    .footer--blog {
+        width: 48%;
+    }
+
+    .description--text {
+        padding-right: 0;
+    }
+
+    .post--heading, .post--date {
+        padding-right: 0;
+    }
+
+    .comment--message {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advantage--number {
+        font-size: 60px;
+    }
+
+    .advantage--text {
+        font-size: 12px;
+    }
+
+    .input--text {
+        float: none;
+        width: calc(90% - 30px);
+        -webkit-box-sizing: padding-box;
+    }
+    
+    .input--confirm {
+        width: 90%;
+        padding: 18px 0;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1px;
+    }
+
+    .advantage {
+        height: 200px;
+    }
+
+    .header--href:not(:first-child) {
+        display: none;
+    }
+
+    .header--href-hide::before, .header--href-hide::after {
+        display: none;
+    }
+
+    .hide--menu {
+        display: block;
+    }
+
+    .article--img {
+        height: 150px !important;
+        background-size: cover !important;
+        background-position: 0 0 !important;
+    }
+
+    .date--day {
+        font-size: 22px;
+    }
+
+    .date--month {
+        font-size: 12px;
+    }
+
+    .article--date {
+        width: 50px;
+        height: 60px;
+        top: 70px;
+    }
+
+    .about {
+        font-size: 40px;
+    }
+
+    .slogan {
+        font-size: 80px;
+        margin-top: 20px;
+        line-height: 90px;
+    }
+
+    .description {
+        margin-top: 50px;
+    }
+
+    .slogan::after {
+        bottom: -40px;
+    }
+
+    .btn {
+        margin-top: 94px;
+    }
+
+    .attraction {
+        margin-top: 65px;
+    }
+
+    .about_us, .contacts {
+        margin-top: 60px;
+    }
+
+    .picture--item {
+        height: 120px;
+        background-position: 0 0;
+        background-size: cover;
+    }
+
+    .img-fluid {
+        height: 190px;
+    }
+
+    .worker--card, .worker {
+        height: 300px;
+    }
+
+    .heading {
+        margin-top: 10px;
+    }
+
+    .heading--text {
+        margin-top: 50px;
+    }
+
+    .line::after {
+        bottom: -25px;
+    }
+
+    .row--service {
+        margin-top: 60px;
+    }
+
+    .row--design-wrap {
+        margin-top: 30px;
+    }
+
+    .row--design {
+        min-height: 780px;
+    }
+
+    .row--do {
+        margin-top: 80px;
+    }
+
+    .article--wrap {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+    .picture {
+        height: 330px;
+    }
+
+    .comment--avatar {
+        width: 130px;
+        height: 130px;
+        background-position: center 20%;
+    }
+
+    .picture-big {
+        height: 660px;
+        background-position: 45% 100%;
+    }
+
+    .pictures {
+        height: 1320px;
+    }
+
+    .row--design::after {
+        width: 333.9px;
+        height: 407.4px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 20%;
+    }
+
+    .row--design {
+        min-height: 600px;
+    }
+
+    .row--design-wrap::after {
+        width: 191.8px;
+        height: 333.2px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        bottom: -60px;
+        left: 60%;
+    }
+
+    .advantage--number {
+        font-size: 50px;
+    }
+
+    .advantage--text {
+        margin-top: 20px;
+    }
+
+    .advantage {
+        height: 170px;
+    }
+
+    .picture--item-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 630px) {
+    .service--heading {
+        font-size: 12px;
+    }
+
+    .service--heading::before {
+        margin-right: 18px !important;
+    }
+
+    .comment--avatar {
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+
+    .service--text {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .row--design {
+        margin-top: 50px;
+    }
+
+    .button {
+        margin-left: 10px !important;
+    }
+
+    .facebook, .twitter, .social, .insta {
+        width: 50px;
+        height: 50px;
+    }
+
+    .worker::after {
+        left: 6px;
+        top: 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    .attraction {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .main--row {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--work {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--service {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--service2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .heading--text-pad {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--card {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--comment {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row--workers {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--comments {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .article--wrap {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row--footer {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .row--picture {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row--design::after {
+        left: 10%;
+    }
+
+    .row--design-wrap::after {
+        left: 50%;
+    }
+
+    .picture--item {
+        width: 90%;
+        height: 300px;
+    }
+
+    .picture--item:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .advantage--number {
+        font-size: 30px;
+    }
+
+    .advantage--text {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .advantage {
+        height: 140px;
+    }
+
+    .row--service, .service2--wrap {
+        flex-wrap: wrap;
+    }
+
+    .service {
+        width: 46%;
+    }
+
+    .service:last-child {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .row--card {
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
+        order: 2;
+    }
+
+    .card--wrap {
+        width: 90%;
+    }
+
+    .row--workers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .worker--card {
+        margin-bottom: 100px;
+        width: 90%;
+    }
+
+    .worker--card:last-child {
+        margin-bottom: 0;
+    }
+
+    .worker--name {
+        margin-top: 15px;
+    }
+
+    .worker--wrap {
+        flex-direction: row;
+    }
+
+    .social, .insta {
+        border-top: none;
+        border-left: 1px solid #f9bd87;
+    }
+
+    .worker--card:nth-child(2) {
+        background-position: 0 50%;
+    }
+
+    .worker--card:first-child {
+        background-position: left;
+    }
+
+    .row--brands {
+        margin-top: 120px;
+    }
+
+    .picture {
+        height: 250px;
+    }
+
+    .picture-big {
+        height: 500px;
+    }
+
+    .pictures {
+        height: 1000px;
+    }
+
+    .comment--text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .comment--avatar {
+        margin-right: 10px;
+    }
+
+    .comment--message {
+        padding: 22px;
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+
+    .row--comment {
+        margin-top: 40px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .comment--author {
+        font-size: 15px;
+    }
+
+    .row--comments {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .client--comment {
+        width: 90%;
+        margin-top: 40px !important;
+    }
+
+    .article--wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .article {
+        width: 90%;
+    }
+
+    .article:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .article--date {
+        top: 200px;
+        width: 60px;
+        height: 70px;
+    }
+
+    .article--img {
+        height: 300px !important;
+    }
+
+    .article--heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .article--text {
+        font-size: 17px;
+    }
+
+    .footer--description {
+        width: 90%;
+    }
+
+    .footer--blog {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .post {
+        margin-top: 30px;
+    }
+
+    .row--footer {
+        justify-content: center;
+    }
+
+    .description--text {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .followers {
+        margin-top: 35px;
+    }
+
+    .button {
+        margin-left: 30px !important;
+    }
+
+    .input--text {
+        width: calc(100% - 30px);
+    }
+
+    .input--confirm {
+        width: 100%;
+    }
+
+    .post--heading {
+        font-size: 16px;
+    }
+
+    .post--date {
+        font-size: 14px;
+    }
+
+    .picture:first-child {
+        background-position: 50% 90%;
+    }
+
+    .picture-big {
+        background-position: 45%;
+    }
+
+    .picture:last-child {
+        background-position: center top;
+    }
+
+    .service--heading {
+        font-size: 14px;
+    }
+
+    .map--text {
+        font-size: 20px;
+    }
+
+    .map--text::after {
+        margin-top: 16px;
+    }
+
+    .map--text::before {
+        margin-bottom: 14px;
+    }
+
+    .row--map {
+        height: 150px;
+    }
+
+    .row--design {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 65px;
+    }
+
+    .description {
+        margin-top: 30px;
+    }
+
+    .attraction {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .picture {
+        height: 220px;
+    }
+
+    .picture-big {
+        height: 440px;
+    }
+
+    .pictures {
+        height: 880px;
+    }
+
+    .picture:first-child {
+        background-position: 50% 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .row--design::after {
+        width: 267.12px;
+        height: 325.92px;
+        left: 15%;
+    }
+
+    .row--design-wrap::after {
+        width: 153.44px;
+        height: 266.56px;
+        left: 60%;
+    }
+
+    .button {
+        margin-left: 15px !important;
+    }
+
+    .post--heading {
+        font-size: 14px;
+    }
+
+    .picture--item {
+        height: 200px;
+    }
+
+    .post--date {
+        font-size: 13px;
+    }
+
+    .article--img {
+        height: 250px !important;
+    }
+
+    .article--date {
+        top: 150px;
+    }
+}
+
+@media (max-width: 420px) {
+    .advantage--number {
+        font-size: 25px;
+    }
+
+    .advantage--text {
+        font-size: 9px;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-top: 7px;
+    }
+
+    .advantage {
+        height: 110px;
+    }
+
+    .slogan {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .about {
+        font-size: 35px;
+    }
+
+    .attraction--text {
+        font-size: 16px;
+    }
+
+    .attraction--text::before {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px) {
+    .row--design::after {
+        left: 5%;
+    }
+
+    .row--design-wrap::after {
+        left: 50%;
+    }
+
+    .heading--italic {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .heading--text {
+        font-size: 13px;
+    }
+
+    .article--heading {
+        font-size: 17px;
+    }
+
+    .article--text {
+        font-size: 14px;
+    }
+}
