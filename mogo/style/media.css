@@ -974,6 +974,11 @@
         font-size: 12px;
     }
 
+    .picture--item-flex::after {
+        left: 6px;
+        top: 6px;
+    }
+
     .service--heading::before {
         margin-right: 18px !important;
     }
@@ -1341,6 +1346,10 @@
         font-size: 30px;
     }
 
+    .header {
+        padding-bottom: 0;
+    }
+
     .slogan {
         font-size: 65px;
     }
@@ -1441,6 +1450,10 @@
     .attraction--text::before {
         font-size: 22px;
     }
+
+    .header {
+        min-height: 620px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1491,5 +1504,41 @@
 
     .picture:nth-child(2) {
         background-position: center;
+    }
+
+    .intro::after {
+        width: 50px;
+    }
+
+    .service--heading {
+        font-size: 12px;
+    }
+
+    .service--text {
+        font-size: 13px;
+    }
+
+    .service--heading::before, .service::before {
+        margin-right: 10px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .advantage {
+        height: 90px;
+    }
+
+    .advantage--number {
+        font-size: 22px;
+    }
+
+    .advantage--text {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 330px) {
+    .service--heading {
+        font-size: 11px;
     }
 }

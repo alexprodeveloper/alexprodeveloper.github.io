@@ -336,6 +336,7 @@
 .picture--item-flex div {
     position: relative;
     z-index: 10;
+    display: none;
 }
 
 .picture--item-flex::after {
@@ -343,7 +344,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    display: inline-block;
+    display: none;
     background: #95e1d3;
     left: 10px;
     top: 10px;
@@ -354,11 +355,23 @@
     content: '';
     width: 100%;
     height: 100%;
-    display: inline-block;
+    display: none;
     position: absolute;
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
     left: 0;
     top: 0;
+}
+
+.picture--item-flex:hover::before {
+    display: inline-block;
+}
+
+.picture--item-flex:hover::after {
+    display: inline-block;
+}
+
+.picture--item-flex:hover div {
+    display: block;
 }
 
 .picture--item-text {
