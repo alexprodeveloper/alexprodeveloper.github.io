@@ -61,6 +61,11 @@
     .circle {
         margin: 0 22px;
     }
+
+    .heading {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 530px) {
