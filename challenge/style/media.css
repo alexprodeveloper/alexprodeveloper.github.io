@@ -1,0 +1,133 @@
+@media (max-width: 1526px) {
+    .row-third {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1070px) {
+    .suggestion {
+        font-size: 25px;
+    }
+
+    .time {
+        font-size: 19px;
+    }
+
+    .circle {
+        margin: 0 40px;
+    }
+
+    .suggestion--under {
+        font-size: 15px;
+    }
+
+    .row-third {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 870px) {
+    .main {
+        width: 90%;
+    }
+
+    .circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circle::after {
+        top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-third {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 630px) {
+    .suggestion {
+        font-size: 22px;
+    }
+
+    .circle {
+        margin: 0 22px;
+    }
+}
+
+@media (max-width: 530px) {
+    .suggestion {
+        font-size: 20px;
+    }
+
+    .suggestion--under {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    .row-third {
+        margin-top: 35px;
+    }
+
+    .row-second {
+        margin-top: 108px;
+    }
+
+    .time {
+        font-size: 15px;
+    }
+
+    .circle {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 448px) {
+    .circle:not(.circle-permanent)::after {
+        height: 130px;
+    }
+
+    .row-third {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    .suggestion {
+        font-size: 18px;
+    }
+
+    .time {
+        font-size: 14px;
+    }
+
+    .circle {
+        width: 17px;
+        height: 17px;
+        margin: 0 12px;
+    }
+
+    .row-third {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 365px) {
+    .row-third {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 349px) {
+    .row-third {
+        margin-top: 10px;
+    }
+}
