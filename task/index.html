@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/argon.min.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <title>Task</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row feedback mt-5 ">
+        <div class="col-md-5 feedback--info">
+            <h2 class="feedback--heading">Контактная информация</h2>
+            <span class="contact contact--name d-block mt-4">Наш телефон</span>
+            <span class="contact">+7(xxx)xxx-xx-xx</span>
+            <span class="contact contact--name mt-4 d-block">Электронная почта</span>
+            <span class="contact">xxxxxxxxxxx@mail.ru </span>
+            <span class="contact contact--name mt-4 d-block">График работы</span>
+            <span class="contact">Круглосуточно</span>
+            <span class="contact contact--name mt-4 d-block">Выходные</span>
+            <span class="contact">Воскресенье с 12:00 до 17:15</span>
+        </div>
+        <div class="col-md-7 feedback--form">
+            <h2 class="feedback--heading feedback--heading-center">Мы на карте</h2>
+            <iframe class="iframe mt-4"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A3894b783f2b6a4889d256ad4b747ef4dd303a46f5001a51bf389a5581991e201&amp;source=constructor"
+                    width="819" height="566" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-5">
+            <h2 class="feedback--heading">Наши данные</h2>
+            <span class="contact contact--name d-block mt-4">Название организации</span>
+            <span class="contact">ООО Помидоркин</span>
+            <span class="contact contact--name mt-4 d-block">Наш юридический адресс</span>
+            <span class="contact">Москва, ул Молодежная, д 12, с 4</span>
+            <span class="contact contact--name mt-4 d-block">ИНН</span>
+            <span class="contact">xxxxxxxxxx</span>
+        </div>
+        <div class="col-md-7">
+            <h2 class="feedback--heading feedback--heading-center">Обратная связь</h2>
+            <form action="#" class="mt-4">
+                <label for="name" class="form--label">Ваше имя</label>
+                <input type="text" class="feedback--item" name="name" id="name" placeholder="Введите имя">
+                <label for="email" class="mt-4 form--label">Ваша электронная почта</label>
+                <input type="text" class="feedback--item" name="email" id="email"
+                       placeholder="Введите электронную почту">
+                <label for="phone" class="mt-4 form--label">Ваш телефон</label>
+                <input type="text" class="feedback--item" name="phone" id="phone" placeholder="Введите телефон">
+                <label for="comment" class="mt-4 form--label">Комментарий</label>
+                <input type="text" class="feedback--item" name="comment" id="comment"
+                       placeholder="Оставьте комментарий">
+                <label for="check" class="mt-4 form--label">Даю согласие на обработку своих персональных данных</label>
+                <input type="checkbox" class="feedback--item feedback--item-line ml-2 " name="check" id="check">
+                <button type="button" class="btn btn-outline-success mt-4 d-block">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
