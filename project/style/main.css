@@ -127,6 +127,8 @@ body {
 
 .article--href {
     padding: 0 20px;
+    max-height: 68px;
+    overflow: hidden;
 }
 
 .article--href-text {
@@ -138,6 +140,8 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
+    max-height: 168px;
+    overflow: hidden;
 }
 
 .article--group {
