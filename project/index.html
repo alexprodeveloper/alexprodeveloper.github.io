@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Template</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
 <header class="header">
-    <div class="container">
+    <div class="container container--header">
         <div class="flex">
             <p class="header--logo">Новости Украины</p>
         </div>
-        <form action="">
-            <input type="search" class="search--input" placeholder="Поиск по сайту...">
-        </form>
-        <a href="#" class="header--href">Регистрация</a>
-        <a href="#" class="header--href">Вход</a>
+        <div class="header--group">
+            <form class="search--form" action="">
+                <input type="search" class="search--input" placeholder="Поиск по сайту...">
+            </form>
+            <a href="#" class="header--href">Регистрация</a>
+            <a href="#" class="header--href">Вход</a>
+        </div>
     </div>
     <div class="container container-line">
         <a class="category" href="#">Свежие</a>
@@ -30,8 +35,7 @@
 </header>
 <main class="main">
     <div class="container">
-        <div class="advertising">
-        </div>
+        <img src="img/dhdsfj.jpg" alt="" class="advertising">
     </div>
     <div class="container container--article">
         <article class="article">
@@ -200,7 +204,7 @@
             <p class="footer--text">Мы в соцсетях</p>
             <div class="social vk"></div>
             <div class="social twitter"></div>
-            <div class="w-100"></div>
+            <div class="w-100 w-100-hidden"></div>
             <div class="social insta"></div>
             <div class="social youtube"></div>
         </div>
