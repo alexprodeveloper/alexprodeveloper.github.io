@@ -5,6 +5,7 @@ window.onload = function () {
     var answer2 = document.getElementById('answer-2');
     var show_solution1 = document.getElementById('find-x1');
     var show_solution2 = document.getElementById('find-x2');
+    var expression = document.getElementById('expression');
     var D2;
     var a2;
     var expression_block = document.getElementById('exp');
@@ -17,6 +18,7 @@ window.onload = function () {
             var count = 4 * a * c;
             D = b2 - 4 * a * c;
             a2 = a * 2;
+            expression.innerHTML = set_coefficient(a, b, c);
             if (D < 0) {
                 if (error_block.style.color !== 'black') {
                     error_block.style.color = 'black';
@@ -69,4 +71,26 @@ window.onload = function () {
             return error;
         }
     });
+    
+    function set_coefficient(a, b, c) {
+        if (a < 0) {
+            a = '-' + a;
+        } else {
+            a = '' + a;
+        }
+
+        if (b < 0) {
+            b = ' - ' + b;
+        } else {
+            b = ' + ' + b;
+        }
+
+        if (c < 0) {
+            c = ' - ' + c;
+        } else {
+            c = ' - ' + c;
+        }
+        var result = a + 'x<sup>2</sup>' + b + 'x' + c + ' = 0';
+        return result;
+    }
 };
