@@ -25,7 +25,11 @@ window.onload = function () {
                 }
                 error = 'D < 0, корней нет';
                 error_block.innerHTML = error;
-                expression_block.innerHTML = '';
+                expression_block.innerHTML = 'D = b<sup>2</sup>-4ac= ' + b2 + ' - 4 * ' + a + ' * ' + b + ' = ' + b2 + ' - ' + count + ' = ' + D;
+                show_solution2.innerHTML = '';
+                show_solution1.innerHTML = '';
+                answer1.innerHTML = '';
+                answer2.innerHTML = '';
             }
 
             if (D === 0) {
@@ -68,25 +72,27 @@ window.onload = function () {
             answer2.innerHTML = '';
             show_solution2.innerHTML = '';
             show_solution1.innerHTML = '';
+            expression.innerHTML = '';
+            expression_block.innerHTML = '';
             return error;
         }
     });
     
     function set_coefficient(a, b, c) {
         if (a < 0) {
-            a = '-' + a;
+            a = '-' + -a;
         } else {
             a = '' + a;
         }
 
         if (b < 0) {
-            b = ' - ' + b;
+            b = ' - ' + -b;
         } else {
             b = ' + ' + b;
         }
 
         if (c < 0) {
-            c = ' - ' + c;
+            c = ' - ' + -c;
         } else {
             c = ' - ' + c;
         }
