@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script type="text/javascript" src="script/main.js"></script>
+</head>
+<body>
+<div class="calculator">
+    <h1 class="calculator--heading">Решение квадратного уравнения</h1>
+    <div class="calculator--form">
+        <form action="#">
+            <div class="form--wrap">
+                <label for="input-1" class="calculator--label">Введите коэффициент a</label><input type="text" id="input-1" class="input">
+                <label for="input-2" class="calculator--label">Введите коэффициент b</label><input type="text" id="input-2" class="input">
+                <label for="input-3" class="calculator--label">Введите коэффициент c</label><input type="text" id="input-3" class="input">
+            </div>
+            <div class="btn--wrap">
+                <button type="submit" class="btn" id="btn--calculate">Решить</button>
+            </div>
+        </form>
+    </div>
+    <div class="solution--block">
+        <p id="exp" class="solution--expression"></p>
+        <span class="error--block" id="error"></span>
+        <div class="x-wrap">
+            <p id="find-x1" class="x--foundation"></p>
+            <p id="find-x2" class="x--foundation"></p>
+        </div>
+    </div>
+    <div class="answer--block">
+        <p id="answer-1" class="answer"></p>
+        <p id="answer-2" class="answer"></p>
+    </div>
+</div>
+</body>
+</html>
