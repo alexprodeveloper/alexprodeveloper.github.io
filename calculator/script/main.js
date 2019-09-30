@@ -44,7 +44,7 @@ window.onload = function () {
                 error_block.style.color = 'black';
                 expression_block.innerHTML = 'D = b<sup>2</sup>-4ac= ' + b2 + ' - 4 * ' + a + ' * ' + b + ' = ' + b2 + ' - ' + count + ' = ' + D;
                 show_solution2.innerHTML = '';
-                show_solution1.innerHTML = 'x = -b / 2a = ' + -b + ' / ' +  2 + ' * ' + a + ' = ' + -b + ' / ' + a2 + ' = ' + x1;
+                show_solution1.innerHTML = 'x = -b / 2a = ' + -b + ' / ' +  2 + ' * ' + a + ' = ' + -b + ' / (2 * ' + a + ') = ' + x1;
             }
 
             if (D > 0) {
