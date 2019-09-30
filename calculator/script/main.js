@@ -58,8 +58,8 @@ window.onload = function () {
                 answer1.innerHTML = 'x<sub>1</sub> = ' + x1;
                 answer2.innerHTML = 'x<sub>2</sub> = ' + x2;
                 expression_block.innerHTML = 'D = b<sup>2</sup>-4ac= ' + b2 + ' - 4 * ' + a + ' * ' + b + ' = ' + b2 + ' - ' + count + ' = ' + D;
-                show_solution1.innerHTML = 'x<sub>1</sub> = (-b - √D) / 2a = (' + -b + ' - √' + D + ')' + ' / ' +  2 + ' * ' + a + ' = (' + -b + ' - ' + Math.sqrt(D) + ') / ' + a2 + ' = ' + x1;
-                show_solution2.innerHTML = 'x<sub>2</sub> = (-b + √D) / 2a = (' + -b + ' + √' + D + ')' + ' / ' +  2 + ' * ' + a + ' = (' + -b + ' + ' + Math.sqrt(D) + ') / ' + a2 + ' = ' + x2;
+                show_solution1.innerHTML = 'x<sub>1</sub> = (-b - √D) / 2a = (' + -b + ' - √' + D + ')' + ' / ' +  2 + ' * ' + a + ' = (' + -b + ' - ' + Math.sqrt(D) + ') / (2 * ' + a + ') = ' + x1;
+                show_solution2.innerHTML = 'x<sub>2</sub> = (-b + √D) / 2a = (' + -b + ' + √' + D + ')' + ' / ' +  2 + ' * ' + a + ' = (' + -b + ' + ' + Math.sqrt(D) + ') / (2 * ' + a + ') = ' + x2;
 
 
             }
