@@ -15,10 +15,12 @@ window.onload = function () {
     act2.addEventListener('click', function () {
         var stmt2 = document.getElementById('task2').value;
         var answer2 = document.getElementById('answer2');
-        var str1 = stmt2[0].toUpperCase();
-        var str2 = stmt2.slice(1, stmt2.length);
-        answer2.style.display = 'block';
-        answer2.innerHTML = str1 + str2.toLowerCase();
+        if (stmt2 !== '') {
+            var str1 = stmt2[0].toUpperCase();
+            var str2 = stmt2.slice(1, stmt2.length);
+            answer2.style.display = 'block';
+            answer2.innerHTML = str1 + str2.toLowerCase();
+        }
         if (stmt2 === '') {
             answer2.style.display = 'none';
         }
