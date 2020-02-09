@@ -1,0 +1,58 @@
+/*users cabinet*/
+$('.slider').owlCarousel({
+    loop:true,
+    margin:0,
+	nav:false,
+	navText:false,
+	dots:false,
+	responsive:{
+		0:{
+            items:1,
+            nav:true
+        },
+		850:{
+            items:2,
+            nav:true
+        },
+		1200:{
+            items:3,
+            nav:false
+        }
+    }
+});
+
+$('.slider_2').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    navText:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        480:{
+            items:2,
+            nav:true
+        },
+        650:{
+            items:3,
+            nav:true
+        },
+        900:{
+            items:4,
+            nav:true
+        },
+        1200:{
+            items:5,
+            nav:true
+        }
+    }
+});
+
+$(function(){
+    $('#flag_for_author').click(function(){
+        $('#form_for_flag').toggleClass('visible');
+    });
+});

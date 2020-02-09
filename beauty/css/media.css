@@ -1,0 +1,510 @@
+@media (max-width: 1600px) {
+    .header__woman {
+        background-position: center;
+    }
+
+    .question {
+        margin-right: 30px;
+    }
+
+    .question__body_line::after {
+        width: 540px;
+        height: 123px;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    .map_content {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .questions {
+        padding: 0;
+    }
+
+    .about__bold::after {
+        right: -30px;
+    }
+
+    .header__woman::after {
+        right: 0;
+    }
+
+    .map_content {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header__font_small::after {
+        background-size: 60%;
+        background-repeat: no-repeat;
+        top: 0;
+    }
+
+    .map__side {
+        width: 40%;
+    }
+
+    .map_container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container__flex {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .container {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .img__container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .beauty__container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .stats__container {
+        padding-left: 2%;
+        padding-right: 5px;
+    }
+
+    .line {
+        width: 409.5px;
+        height: 81.6px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img__people, .img__stats {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+    }
+
+    .line__content {
+        margin-left: 40px;
+    }
+
+    .question__text_smaller {
+        font-size: 17px;
+    }
+
+    .map__wrap {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__font_small {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .stats {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .header__font_small::after {
+        display: none;
+    }
+
+    .recommended__img, .recommended__img_2 {
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+    }
+
+    .stars__block {
+        width: 97.3px;
+        height: 29.4px;
+        background-size: cover;
+    }
+
+    .img {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .winner__address {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .beauty__img {
+        width: 42%;
+    }
+
+    .map_container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .container__flex {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .img__container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .beauty__container {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .stats__container {
+        padding-left: 1%;
+        padding-right: 4px;
+    }
+
+    .question__body_line::after {
+        top: -10px;
+    }
+
+    .beauty__img {
+        height: 450px;
+    }
+
+    .service__list {
+        padding: 15px 10px !important;
+    }
+
+    .stats__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .line__items {
+        order: 1;
+        margin-right: 30px;
+    }
+
+    .line__stats {
+        order: 2;
+    }
+
+    .table__stats tr td {
+        order: 3;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .winner__prize {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .main__btn {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .questions {
+        margin-top: 45px;
+    }
+
+    .answer__text {
+        margin-top: 20px;
+    }
+
+    .beauty__container {
+        margin-top: 45px;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    .recommended__item {
+        display: block;
+        border: 1px solid silver;
+        margin-top: 15px;
+    }
+    
+    .recommended__img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .owner__type, .owner__name {
+        font-size: 20px;
+    }
+
+    .recommended__wrap {
+        clear: both;
+    }
+
+    .stars__block {
+        width: 139px;
+        height: 42px;
+    }
+
+    .address, .phone {
+        font-size: 20px;
+    }
+
+    .btn {
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .working__hours {
+        display: none;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .feedback__card {
+        padding: 20px 12px;
+    }
+
+    .main__btn {
+        font-size: 20px;
+    }
+
+    .prize__about {
+        margin-right: 0;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map_container {
+        flex-wrap: wrap;
+    }
+
+    .map__side {
+        width: 100%;
+        order: 2;
+    }
+
+    .map_content {
+        order: 1;
+        width: 100%;
+        height: 500px;
+    }
+
+    .service__item {
+        font-size: 20px;
+    }
+
+    .map__title {
+        font-size: 25px;
+    }
+
+    .map__submit {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .map__item {
+        font-size: 22px;
+        padding: 6px 10px;
+        border: 1px solid silver;
+        border-radius: 15px;
+    }
+
+    .map__stars {
+        width: 104px;
+        height: 20.8px;
+        background-size: contain;
+    }
+
+    .map__item_active {
+        border-color: #981b6c;
+    }
+
+    .winner__prize {
+        flex-direction: column;
+    }
+
+    .prize__img {
+        display: none;
+    }
+
+    .last__winners {
+        display: none;
+    }
+
+    .feedback__card {
+        width: 100%;
+    }
+
+    .questions {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .question {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .question__body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .question__body_line::after {
+        left: 50px;
+    }
+
+    .feedback__card:not(:first-child) {
+        display: none;
+    }
+
+    .beauty__img {
+        display: none;
+    }
+
+    .service__list {
+        width: 100%;
+    }
+
+    .beauty__container {
+        margin-bottom: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+    }
+
+    .big__line p {
+        color: #747474;
+        font-family: "Gotham Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+    }
+
+    .big__line p::before {
+        content: '';
+        position: relative;
+        display: inline-block;
+        background: url(../img/qnone_pink1.png);
+        width: 18px;
+        height: 28px;
+        margin-right: 10px;
+    }
+
+    .big__line p::after {
+        content: '';
+        position: relative;
+        display: inline-block;
+        background: url(../img/qnote_pink2.png);
+        width: 18px;
+        height: 28px;
+        margin-left: 10px;
+    }
+
+
+    .big__line {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        background-color: #dedede;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .features {
+        display: none;
+    }
+
+    .recommended__item {
+        width: 100%;
+    }
+
+   .beauty__container .service__items {
+       padding-left: 10px;
+    }
+
+   .header__search {
+       width: 60%;
+   }
+
+   .winner__address {
+       display: none;
+   }
+
+   .img {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .winner__about {
+       margin-right: auto;
+       margin-left: auto;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+   }
+
+   .owner__name, .owner__type, .address, .phone, .btn {
+       font-size: 15px;
+   }
+
+}
+
+@media (max-width: 450px) {
+    .service__item {
+        font-size: 16px;
+    }
+
+    .stats, .heading__stats, .stats__container {
+        display: none;
+    }
+
+    .grey__line {
+        display: none;
+    }
+
+    .recommended__item {
+        width: 98%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .service__list {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
