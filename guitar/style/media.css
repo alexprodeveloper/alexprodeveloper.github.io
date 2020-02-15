@@ -1,0 +1,589 @@
+@media (max-width: 1750px) {
+    .plain__padding {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .contact__container {
+        flex-shrink: 0;
+    }
+
+    .section__picture {
+        background-position: 70%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .contact__text, .contact__text_thin {
+        font-size: 24px;
+    }
+
+    .picture_bg {
+        margin-right: 18px;
+    }
+
+    .btn__smaller {
+        width: 200px;
+    }
+
+    .bold__text_news, .small__new .top__text {
+        margin-left: 15px;
+        padding-right: 8px;
+    }
+
+    .bold__text_news {
+        padding-top: 8px;
+    }
+
+    .news__container {
+        height: 600px;
+    }
+
+    .small__new {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .news__img {
+        align-self: flex-start;
+    }
+
+
+    .calendar__container_relative {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    .container__300 {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    .container__blue {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .content__about {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .plain__padding {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .section__container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .lessons {
+        padding-left: 180px;
+    }
+
+    .section__picture {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .row__370 {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .guitar__content {
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container__300 {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .container__blue {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+
+
+    .content__about {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .plain__padding {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .lessons {
+        padding-left: 90px;
+    }
+
+    .section__container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .social {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .logo__item_skype {
+        padding-right: 35px;
+    }
+
+    .service__container {
+        height: 260px;
+    }
+
+    .review__text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .service__item {
+        padding: 0;
+    }
+
+    .service__text {
+        padding-top: 21px;
+        padding-left: 40px;
+    }
+
+    .picture_bg {
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        margin-right: 10px;
+    }
+
+    .contact__text_thin, .contact__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .row__370 {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .feedback__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact__container {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .news__container {
+        height: auto;
+        display: block;
+    }
+
+    .big__news {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .small__news {
+        width: 100%;
+        display: block;
+    }
+
+    .small__new {
+        margin-bottom: 30px;
+    }
+
+    .small__new_last {
+        margin-bottom: 0;
+    }
+
+    .container__300 {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .container__blue {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .content__about {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .plain__padding {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .lessons {
+        padding-left: 35px;
+    }
+
+    .section__container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 850px) {
+    .slogan__bold, .slogan__thin {
+        font-size: 50px;
+    }
+
+    .regular__text {
+        line-height: 18px;
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    .bold__text_text {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .bold__text_text::after {
+        bottom: -18px;
+    }
+
+    .text__social {
+        margin-top: 30px;
+    }
+
+    .map__container {
+        height: 400px;
+    }
+
+    .content__heading {
+        margin-bottom: 40px;
+        padding-top: 70px;
+    }
+
+    .content__about {
+        padding-bottom: 70px;
+    }
+
+    .lessons {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .service {
+        padding-top: 60px;
+    }
+
+    .switch__btns {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+
+    .btn__gold_margin {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+
+    .review__container {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .review__body {
+        margin-top: 40px;
+    }
+
+    .advantage__container {
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo__item, .logo__social {
+        display: none;
+    }
+
+    .logo__mobile_menu {
+        display: block;
+    }
+
+    .logo__header {
+        flex-grow: 1;
+    }
+
+    .guitar__container {
+        height: 550px;
+    }
+
+    .guitar__content {
+        padding-top: 100px;
+    }
+
+    .header__href {
+        font-size: 15px;
+    }
+
+    .section__first {
+        display: block;
+        height: auto;
+    }
+
+    .section__text {
+        padding-left: 0;
+    }
+
+    .section__content {
+        width: 100%;
+    }
+
+    .section__picture {
+        width: 100%;
+        height: 400px;
+        position: static;
+    }
+
+    .toggle__btn_container_text {
+        top: 95%;
+    }
+
+    .row__370 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer__main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__col:first-child {
+        margin-right: 8%;
+    }
+
+    .footer__col {
+        width: 46%;
+    }
+
+    .header__menu {
+        flex-wrap: wrap;
+    }
+
+    .header__item {
+        width: 30%;
+    }
+
+    .container__300 {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .container__blue {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+
+
+    .content__about {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .plain__padding {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .lessons {
+        padding-left: 18px;
+    }
+
+    .section__container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .container__blue {
+        height: 200px;
+    }
+
+    .header__item {
+        height: 100px;
+    }
+
+    .header__href {
+        font-size: 18px;
+    }
+
+    .header__item_about, .header__item_blog {
+        border: none;
+    }
+
+    .review__text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .service__container {
+        display: block;
+        margin: 0;
+        height: auto;
+    }
+
+    .service__item {
+        width: 100%;
+        margin: 0;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .little__container {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .slogan {
+        font-size: 40px;
+    }
+
+    .advantage__picture {
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+    }
+
+    .video__wrap {
+        width: 266px;
+        height: 146px;
+    }
+
+    .guitar__container {
+        height: 400px;
+    }
+
+    .guitar__content {
+        padding-top: 70px;
+        padding-right: 100px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slogan {
+        font-size: 28px;
+    }
+
+    .m__33 {
+        margin-right: 18px;
+    }
+
+    .btn__smaller {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .service__item {
+        height: 280px;
+    }
+
+    .advantage__picture {
+        width: 90px;
+        height: 90px;
+    }
+
+    .section__text {
+        padding-top: 8px;
+    }
+
+    .container__300 {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .container__blue {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+
+    .content__about {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .plain__padding {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .lessons {
+        padding-left: 18px;
+    }
+
+    .section__container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .bold__text_advantage {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .advantage__container {
+        align-items: flex-start !important;
+    }
+
+    .header__href {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .advantage__picture {
+        width: 55px;
+        height: 55px;
+    }
+
+    .footer__col {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    
+    .logo__header {
+        float: left;
+    }
+
+    .switch__btn_review {
+        width: 40px;
+        height: 30px;
+    }
+}
