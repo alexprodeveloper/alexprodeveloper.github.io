@@ -1,0 +1,407 @@
+@media (max-width: 1600px) {
+    .background {
+        padding-top: 56.28%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .footer__menu {
+        margin-left: -3%;
+        margin-right: -3%;
+    }
+
+    .one__menu {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .header__wrap {
+        margin-top: 70px;
+    }
+
+    .service {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .plain__padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .article__main {
+        padding-right: 100px;
+    }
+
+    .article__main_odd {
+        padding-left: 100px;
+    }
+
+    .background__wrap {
+        padding-left: 100px;
+    }
+
+    .partners {
+        box-sizing: border-box;
+    }
+
+    .offset {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .partner {
+        margin-right: 20px;
+        width: 93.6px;
+        height: 67.8px;
+        background-size: cover;
+    }
+
+    .partners {
+        padding-right: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        margin-top: -60px;
+    }
+
+    .article__review, .article__review_odd {
+        padding: 18px;
+    }
+
+    .article__review .review__text, .article__review_odd .review__text {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .article__review .review__name, .article__review_odd .review__name {
+        margin-bottom: 0;
+    }
+
+    .article__review {
+        right: -15px;
+        bottom: -15px;
+    }
+
+    .article__review_odd {
+        left: -15px;
+        bottom: -15px;
+    }
+
+    .service__container {
+        flex-wrap: wrap;
+    }
+
+    .service {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__wrap {
+        margin-top: 35px;
+    }
+
+    .offset {
+        font-size: 48px;
+    }
+
+    .plain__padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .article__main {
+        padding-right: 60px;
+    }
+
+    .article__main_odd {
+        padding-left: 60px;
+    }
+
+    .background__wrap {
+        padding-left: 60px;
+    }
+
+    .review__text {
+        font-size: 20px;
+    }
+
+    .article__wrap {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 982px) {
+    .hidden__982 {
+        display: none;
+    }
+
+    .footer__menu {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .one__menu {
+        margin-left: 0;
+        margin-right: 0;
+        width: 40%;
+    }
+
+    .one__menu_offset {
+        margin-top: 30px;
+    }
+
+
+    .article__offset {
+        flex-wrap: wrap;
+    }
+
+    .article__img {
+        width: 100%;
+        padding-top: 74.829%;
+    }
+
+    .article__review {
+        right: 0;
+        bottom: 0;
+    }
+
+    .article__review_odd {
+        left: 0;
+        bottom: 0;
+    }
+
+    .article__img2 {
+        order: 1;
+    }
+
+    .article__offset {
+        margin-bottom: 60px;
+    }
+
+    .article__main {
+        order: 2;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .text__block {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .services {
+        margin-top: 180px;
+    }
+
+    .services .text__wrap::before {
+        top: -80px;
+    }
+
+    .text__bold_white {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 900px) {
+    .offset {
+        font-size: 38px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .article__first {
+        flex-direction: column;
+    }
+
+    .article__wrap_first {
+        padding-top: 50px;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .review__text_first {
+        width: 100%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .text__row {
+        margin-top: 180px;
+    }
+
+    .text__wrap::before {
+        top: -80px;
+    }
+}
+
+@media (max-width: 800px) {
+    .partners {
+        margin-top: 0;
+    }
+
+    .background {
+        padding-top: 62%;
+    }
+
+    .text__wrap_advantage {
+        flex-direction: column;
+    }
+
+    .text__wrap_advantage span:first-child {
+        order: 2;
+    }
+
+    .text__wrap_advantage span:last-child {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .white__text_big {
+        font-size: 18px;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .attraction {
+        margin-right: 0;
+    }
+
+   .partner {
+       width: 33.333%;
+       padding-top: 24.121%;
+       height: 0;
+       margin-right: 0;
+   }
+
+   .partner4 {
+       margin-right: 40px;
+   }
+}
+
+@media (max-width: 700px) {
+    .offset {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .last {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last .menu__item_logo {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .plain__padding {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .hidden__600 {
+        display: none;
+    }
+
+    .background__wrap {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .header__wrap {
+        margin-top: 20px;
+    }
+
+    .background {
+        padding-top: 70%;
+    }
+
+    .article__main {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .text__bold_white {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .attraction {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .article__main_odd {
+        padding-left: 25px;
+    }
+
+    .one__menu_big, .one__menu:nth-child(2) {
+        width: 60%;
+    }
+
+    .article__review, .article__review_odd {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .review__text {
+        width: auto;
+    }
+
+    .text__bold {
+        font-size: 28px !important;
+    }
+
+    .white__text_big {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__wrap {
+        display: none;
+    }
+
+    .plain__padding {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .background__wrap {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .article__main {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .service {
+        width: 100%;
+    }
+}
