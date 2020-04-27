@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'ProximaNovaT';
+    src: url('../fonts/ProximaNovaT-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'ProximaNovaA';
+    src: url('../fonts/ProximaNova-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ForeverBrushScript';
+    src: url('../fonts/forever_brush_script.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
